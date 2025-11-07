@@ -1,0 +1,57 @@
+# Azure Functions - Files to exclude from deployment
+
+# Python virtual environment
+.venv
+.env
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# VS Code
+.vscode/
+
+# Local settings (will be configured in Azure Portal)
+local.settings.json
+
+# Test files
+test_*.py
+*_test.py
+quick_test.py
+simple_test.py
+validate_*.py
+
+# Documentation
+*.md
+!README.md
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Deployment scripts (not needed in Azure)
+deploy.ps1
+configure-azure-function.ps1
+diagnose_function.py
+
+# IMPORTANT: These files MUST be included (not excluded)
+# - function_app.py
+# - host.json  
+# - requirements.txt
+# - shared/ (entire folder and all contents)

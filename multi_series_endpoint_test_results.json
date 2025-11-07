@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-06T17:11:09.289802",
+  "endpoint_tested": "https://TimeGEN-1-AssurantPoc.eastus2.models.ai.azure.com/anomaly_detection_multi_series",
+  "multi_series_working": false,
+  "best_response_time": 0,
+  "total_tests": 5,
+  "successful_tests": 0,
+  "failed_tests": 5,
+  "results": [
+    {
+      "payload_type": "timestamp_value_format",
+      "success": false,
+      "error": "HTTP 408: Request Timeout",
+      "error_details": "upstream request timeout\nPlease check this guide to understand why this error code might have been returned \nhttps://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes\n"
+    },
+    {
+      "payload_type": "simple_multi_series",
+      "success": false,
+      "error": "HTTP 408: Request Timeout",
+      "error_details": "upstream request timeout\nPlease check this guide to understand why this error code might have been returned \nhttps://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes\n"
+    },
+    {
+      "payload_type": "array_based_format",
+      "success": false,
+      "error": "HTTP 408: Request Timeout",
+      "error_details": "upstream request timeout\nPlease check this guide to understand why this error code might have been returned \nhttps://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes\n"
+    },
+    {
+      "payload_type": "flattened_array_format",
+      "success": false,
+      "error": "HTTP 408: Request Timeout",
+      "error_details": "upstream request timeout\nPlease check this guide to understand why this error code might have been returned \nhttps://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes\n"
+    },
+    {
+      "payload_type": "minimal_format",
+      "success": false,
+      "error": "HTTP 408: Request Timeout",
+      "error_details": "upstream request timeout\nPlease check this guide to understand why this error code might have been returned \nhttps://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes\n"
+    }
+  ]
+}

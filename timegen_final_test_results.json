@@ -1,0 +1,44 @@
+{
+  "timestamp": "2025-11-06T16:54:38.577764",
+  "endpoint_tested": "https://TimeGEN-1-AssurantPoc.eastus2.models.ai.azure.com/v2/online_anomaly_detection",
+  "total_tests": 4,
+  "successful_tests": 0,
+  "failed_tests": 4,
+  "multi_series_fully_supported": false,
+  "max_series_supported": 0,
+  "best_performance": 0,
+  "results": [
+    {
+      "payload_type": "single_series_exact",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"series\",\"y\"],\"msg\":\"Value error, y must be a list of floats\",\"ctx\":{\"error\":{}}}]}",
+      "series_count": 1,
+      "detection_size": 5
+    },
+    {
+      "payload_type": "multi_series_3_exact",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"series\",\"y\"],\"msg\":\"Value error, y must be a list of floats\",\"ctx\":{\"error\":{}}}]}",
+      "series_count": 3,
+      "detection_size": 5
+    },
+    {
+      "payload_type": "all_16_metrics_exact",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"series\",\"y\"],\"msg\":\"Value error, y must be a list of floats\",\"ctx\":{\"error\":{}}}]}",
+      "series_count": 16,
+      "detection_size": 5
+    },
+    {
+      "payload_type": "key_metrics_optimized",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"series\",\"y\"],\"msg\":\"Value error, y must be a list of floats\",\"ctx\":{\"error\":{}}}]}",
+      "series_count": 5,
+      "detection_size": 3
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-11-06T17:17:26.430015",
+  "endpoint": "https://TimeGEN-1-AssurantPoc.eastus2.models.ai.azure.com/anomaly_detection_multi_series",
+  "working_formats": 0,
+  "results": [
+    {
+      "payload_type": "single_metric_cpu",
+      "success": false,
+      "error": "The read operation timed out",
+      "payload_size": 227
+    },
+    {
+      "payload_type": "two_metrics",
+      "success": false,
+      "error": "The read operation timed out",
+      "payload_size": 414
+    },
+    {
+      "payload_type": "three_metrics",
+      "success": false,
+      "error": "The read operation timed out",
+      "payload_size": 610
+    },
+    {
+      "payload_type": "array_format_small",
+      "success": false,
+      "error": "The read operation timed out",
+      "payload_size": 126
+    },
+    {
+      "payload_type": "ultra_minimal",
+      "success": false,
+      "error": "The read operation timed out",
+      "payload_size": 43
+    }
+  ]
+}

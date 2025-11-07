@@ -1,0 +1,10 @@
+azure-functions
+azure-identity
+azure-monitor-query
+azure-data-tables
+azure-ai-inference
+requests
+python-dateutil
+numpy
+scipy
+tenacity

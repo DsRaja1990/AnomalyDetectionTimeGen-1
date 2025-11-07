@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-11-06T16:51:39.591824",
+  "total_tests": 18,
+  "successful_tests": 0,
+  "failed_tests": 18,
+  "results": [
+    {
+      "endpoint": "online_anomaly_v2",
+      "payload_type": "single_metric_dict",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"series\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"body\",\"detection_size\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"body\",\"h\"],\"msg\":\"Field"
+    },
+    {
+      "endpoint": "online_anomaly_v2",
+      "payload_type": "single_metric_array",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"series\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"body\",\"detection_size\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"body\",\"h\"],\"msg\":\"Field"
+    },
+    {
+      "endpoint": "online_anomaly_v2",
+      "payload_type": "multi_series_small",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"series\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"body\",\"detection_size\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"body\",\"h\"],\"msg\":\"Field"
+    },
+    {
+      "endpoint": "detect_anomalies_v2",
+      "payload_type": "single_metric_dict",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "detect_anomalies_v2",
+      "payload_type": "single_metric_array",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "detect_anomalies_v2",
+      "payload_type": "multi_series_small",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "forecast_v1",
+      "payload_type": "single_metric_dict",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "forecast_v1",
+      "payload_type": "single_metric_array",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "forecast_v1",
+      "payload_type": "multi_series_small",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "anomaly_detection",
+      "payload_type": "single_metric_dict",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "anomaly_detection",
+      "payload_type": "single_metric_array",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "anomaly_detection",
+      "payload_type": "multi_series_small",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "detect",
+      "payload_type": "single_metric_dict",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "detect",
+      "payload_type": "single_metric_array",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "detect",
+      "payload_type": "multi_series_small",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "timeseries",
+      "payload_type": "single_metric_dict",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "timeseries",
+      "payload_type": "single_metric_array",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    },
+    {
+      "endpoint": "timeseries",
+      "payload_type": "multi_series_small",
+      "success": false,
+      "error": "HTTP 404: Not Found",
+      "error_details": "NOT FOUND"
+    }
+  ],
+  "recommendations": []
+}

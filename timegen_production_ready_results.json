@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-11-06T16:56:10.435524",
+  "endpoint_tested": "https://TimeGEN-1-AssurantPoc.eastus2.models.ai.azure.com/v2/online_anomaly_detection",
+  "production_ready": false,
+  "multi_series_supported": false,
+  "max_series_supported": 0,
+  "best_response_time": 0,
+  "total_tests": 4,
+  "successful_tests": 0,
+  "failed_tests": 4,
+  "results": [
+    {
+      "payload_type": "single_metric_flattened",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":\"Model 'timegpt-1' is not supported, please contact support\"}",
+      "series_count": 1,
+      "total_values": 10,
+      "detection_size": 5
+    },
+    {
+      "payload_type": "three_metrics_flattened",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":\"Model 'timegpt-1' is not supported, please contact support\"}",
+      "series_count": 3,
+      "total_values": 30,
+      "detection_size": 5
+    },
+    {
+      "payload_type": "five_key_metrics_flattened",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":\"Model 'timegpt-1' is not supported, please contact support\"}",
+      "series_count": 5,
+      "total_values": 50,
+      "detection_size": 3
+    },
+    {
+      "payload_type": "all_16_metrics_flattened",
+      "success": false,
+      "error": "HTTP 422: Unprocessable Entity",
+      "error_details": "{\"detail\":\"Model 'timegpt-1' is not supported, please contact support\"}",
+      "series_count": 16,
+      "total_values": 160,
+      "detection_size": 5
+    }
+  ],
+  "payload_format": {
+    "series": {
+      "y": "Single flattened array of all metric values",
+      "sizes": "Array indicating number of values per metric"
+    },
+    "freq": "Time frequency (e.g., '5min')",
+    "detection_size": "Detection window size",
+    "h": "Forecast horizon"
+  }
+}

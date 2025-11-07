@@ -1,0 +1,33 @@
+# Configuration Template
+# Copy this to local.settings.json and fill in your values
+
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    
+    "# REQUIRED: Application Insights Resource ID (target to monitor)": "",
+    "APPINSIGHTS_RESOURCE_ID": "/subscriptions/YOUR_SUBSCRIPTION_ID/resourceGroups/YOUR_RESOURCE_GROUP/providers/Microsoft.Insights/components/YOUR_APPINSIGHTS_NAME",
+    
+    "# REQUIRED: Application Insights Connection String (target to monitor)": "",
+    "APPINSIGHTS_CONNECTION_STRING": "InstrumentationKey=YOUR_KEY;IngestionEndpoint=YOUR_ENDPOINT;LiveEndpoint=YOUR_LIVE_ENDPOINT;ApplicationId=YOUR_APP_ID",
+    
+    "# REQUIRED: AI Foundry Configuration": "",
+    "AI_FOUNDATION_ENDPOINT": "https://assurantpoc-resource.services.ai.azure.com/models/chat/completions?api-version=2024-05-01-preview",
+    "AI_FOUNDATION_KEY": "YOUR_AI_FOUNDRY_API_KEY",
+    
+    "# REQUIRED: Logic App Webhook URL": "",
+    "LOGIC_APP_URL": "https://prod-XX.eastus.logic.azure.com:443/workflows/YOUR_WORKFLOW_ID/triggers/...",
+    
+    "# REQUIRED: Table Storage for historical data": "",
+    "TABLE_STORAGE_CONNECTION_STRING": "UseDevelopmentStorage=true",
+    
+    "# OPTIONAL: Tuning Parameters": "",
+    "ANOMALY_CONFIDENCE_THRESHOLD": "0.85",
+    "METRICS_LOOKBACK_MINUTES": "10",
+    "TIMER_INTERVAL_MINUTES": "5",
+    "ENABLE_PREFILTER": "true",
+    "PREFILTER_ZSCORE_THRESHOLD": "2.5"
+  }
+}
